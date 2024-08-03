@@ -11,8 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Setter
-@Getter
+@Data
 @Entity
 @Table(name = "students")
 public class Student {
